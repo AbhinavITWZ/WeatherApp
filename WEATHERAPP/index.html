@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App by Musafir</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="main">
+        <div class="weathercard">
+            <div class="search">
+                <input type="text" id="cityInput" placeholder="Enter City Name" required>
+                <button id="searchButton">Search</button>
+            </div>
+            <div class="weather-info">
+                <h2 id="cityName">City Name</h2>
+                <img id="weatherIcon" src="">
+            </div>
+            <div class="temperature">
+                    
+                    <span id="temp">00°C</span>
+            </div>
+            <div class="humidity">
+                <p >
+                    <svg width="34" height="54" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 22C15.87 22 19 18.87 19 15C19 10.25 12 3 12 3C12 3 5 10.25 5 15C5 18.87 8.13 22 12 22Z" 
+                          fill="#00BFFF"/>
+                </svg>
+                    <span id="humidity" >Humidity: 00%</span>
+                </p>
+                <p >
+                    <svg width="44" height="44" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 8H15C16.66 8 18 6.66 18 5C18 3.34 16.66 2 15 2C13.9 2 13 2.9 13 4H11C11 1.79 12.79 0 15 0C17.21 0 19 1.79 19 4C19 6.21 17.21 8 15 8H4V8ZM4 13H16C17.66 13 19 11.66 19 10C19 8.34 17.66 7 16 7C14.9 7 14 7.9 14 9H12C12 6.79 13.79 5 16 5C18.21 5 20 6.79 20 9C20 11.21 18.21 13 16 13H4V13ZM4 18H14C15.66 18 17 16.66 17 15C17 13.34 15.66 12 14 12C12.9 12 12 12.9 12 14H10C10 11.79 11.79 10 14 10C16.21 10 18 11.79 18 14C18 16.21 16.21 18 14 18H4V18Z" fill="#FFFFFF"/>
+                    </svg>
+                    <span id="wind">Wind Speed: 00 km/h</span>
+                </p>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
